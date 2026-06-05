@@ -1,0 +1,63 @@
+# Functions, List Comprehensions, Lambda Functions, Exception Handling, Modules
+
+#         #List
+
+#         list is like = [ .....]
+# x = 12
+# # x is a real number, so its imaginary part is 0.
+# print(x.imag)
+# # Here's how to make a complex number, in case you've ever been curious:
+c = 12 + 3j
+# print(c.imag)
+#  handles non real nums
+
+# to add 
+# planets.append("parth")
+
+# to remove last elemnt
+# planent.pop()
+
+# to watch elements IndexNo
+
+# planent.index("fafjahbf") 
+
+
+#         #tuple
+
+# tuple is like = (.....)        
+# cannot be modify they are immutable
+
+# it is used to return multiple ans..\
+
+# has functions like
+# x.as_integer_ratio()
+
+#                 #sets
+# they are type of data structure like sets([])
+
+# no duplicate allowed ..
+
+# fuctions
+def check_weather():
+    temp = 16
+    if temp>= 25 :
+        print("its too hot")
+    else:
+        print("Its nice coldd")    
+
+# #wee need call them outt
+
+# to print and return has a diffference
+
+def printer(a,b):
+    print(a+b)
+
+printer(2,3) 
+ # -> output none
+
+def returner(a,b):
+    return a+b
+
+ramu = returner(3,89) + 90
+
+print(ramu) #-> gives output
